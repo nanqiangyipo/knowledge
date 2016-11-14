@@ -1,0 +1,26 @@
+/* CSS Document */
+
+body{ font-size:12px; font-family:"ËÎÌå","Arial Narrow"; margin: 0px auto; background:#eff3f6; color:#3a3a3a}
+body,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,p{ margin:0px; padding:0px;}
+ul{list-style-type:none;}
+img{ border: none; vertical-align:bottom}
+em{ font-style:normal}
+select{height:20px;font-size:12px;font-family:"ËÎÌå","Arial Narrow";}
+a{color:#5891d0; text-decoration:none;}
+a:hover{ text-decoration:underline; color:#1163be}
+
+.top_20{margin-top: 20px}
+.clear{ clear:both}
+
+.banner{ width: 100%; background:url(banner-bg.gif) repeat-x; height: 167px}
+.banner div.con{ width: 820px; margin: 0px auto; height: 167px; position:relative; background:url(banner.jpg) no-repeat}
+.banner div.con a{ position:absolute; background:url(down-btn01.jpg) no-repeat; width: 199px; height: 85px; display:block; top: 74px; right: 32px}
+.banner div.con a:hover{ position:absolute; background:url(down-btn02.jpg) no-repeat; width: 199px; height: 85px; display:block; top: 74px; right: 32px}
+.cloumn{ width: 100%; float:left;}
+.cloumn div.title{ width: 96%; background:url(title-line.gif) repeat-x 0px bottom; float:left; margin: 0px 0px 0px 2%; _display:inline;}
+.cloumn div.title h3{ font-family:"Î¢ÈíÑÅºÚ"; font-size:14px; color:#000000; background:url(title-icon.gif) no-repeat 10px 1px; padding: 0px 0px 6px 20px; float:left;}
+.cloumn div.btn{ clear:both; float:left; width: 94%; margin: 3px 0px 0px 4%; _display:inline}
+.cloumn div.btn ul li{ float:left; width: 33%; padding: 4px 0px; line-height: 220%}
+.cloumn div.btn ul li img{ float:left}
+.cloumn div.btn ul li span{ float:left; padding:0px 8px 0px 3px}
+.cloumn div.btn ul li a{ float:left; text-decoration:underline}
